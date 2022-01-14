@@ -1,6 +1,6 @@
 # rollup-plugin-steal-remove
 
-![](https://img.shields.io/github/workflow/status/pYr0x/rollup-plugin-steal-remove/CI?style=flat-square)
+![](https://img.shields.io/github/workflow/status/pYr0x/rollup-plugin-steal-remove/Test?style=flat-square)
 ![](https://img.shields.io/npm/v/rollup-plugin-steal-remove?style=flat-square)
 ![](https://img.shields.io/node/v/rollup-plugin-steal-remove?style=flat-square)
 ![](https://img.shields.io/npm/dependency-version/rollup-plugin-steal-remove/peer/rollup?style=flat-square)
