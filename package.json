@@ -5,10 +5,16 @@
   "type": "commonjs",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "types/index.d.ts",
   "exports": {
     "import": "./dist/esm/index.js",
     "require": "./dist/cjs/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pYr0x/rollup-plugin-steal-remove"
+  },
+  "engines": {
+    "node": ">= 14.18.0"
   },
   "scripts": {
     "dev": "tsc -p . -w --incremental",
@@ -23,7 +29,7 @@
     "test": "jest --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "Julian Kern",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
