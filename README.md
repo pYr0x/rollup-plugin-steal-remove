@@ -5,7 +5,7 @@
 ![](https://img.shields.io/node/v/rollup-plugin-steal-remove?style=flat-square)
 ![](https://img.shields.io/npm/dependency-version/rollup-plugin-steal-remove/peer/vitejs?style=flat-square)
 
-🍣 A Rollup plugin which removes the stealJS [development code](https://stealjs.com/docs/steal-tools.transform.options.html) from canJS sourcecode.
+🍣 A Rollup plugin which removes [development code](https://stealjs.com/docs/steal-tools.transform.options.html) from canJS sourcecode that is indicated by steal's `steal-remove-start / end`
 
 ## Requirements
 
