@@ -29,4 +29,11 @@ describe('basic', () => {
     eval(newCode);
     expect(foo).toEqual('bar');
   });
+
+  it('should not transform if no javascript file is passed through', () => {
+    const plugin = stealRemovePlugin();
+    // @ts-ignore
+    const file = plugin.transform('var no = "code" // here', 'test.stache');
+    expect(file).toBeNull();
+  });
 })
